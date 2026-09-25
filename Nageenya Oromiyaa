@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="om">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nageenya Oromiyaa</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: white;
+            text-align: center;
+            padding: 30px 15px;
+            border-bottom: 5px solid green;
+        }
+
+        header h1 {
+            color: green;
+            font-size: 32px;
+        }
+
+        header p {
+            color: #555;
+        }
+
+        nav {
+            background: green;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 35px 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        .button {
+            display: inline-block;
+            background: green;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        footer {
+            background: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>NAGEENYA OROMIYAA</h1>
+    <p>Odeeffannoo, nageenya fi tajaajila hawaasaa</p>
+</header>
+
+<nav>
+    <a href="#home">Mana</a>
+    <a href="#about">Waa'ee</a>
+    <a href="#services">Tajaajila</a>
+    <a href="#news">Oduu</a>
+    <a href="#contact">Qunnamtii</a>
+</nav>
+
+<section id="home">
+    <h2>Baga Nagaan Dhuftan</h2>
+    <p>
+        Kun website Nageenya Oromiyaa ti.
+    </p>
+    <a class="button" href="#services">Tajaajila Ilaali</a>
+</section>
+
+<section id="about">
+    <h2>Waa'ee Keenya</h2>
+    <p>
+        As irratti waa'ee website fi kaayyoo isaa
+        odeeffannoo dabalataa kaa'uu dandeessa.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Tajaajila</h2>
+    <p>📢 Odeeffannoo</p>
+    <p>📄 Beeksisaalee</p>
+    <p>📞 Qunnamtii</p>
+</section>
+
+<section id="news">
+    <h2>Oduu fi Beeksisa</h2>
+    <p>Oduu haaraa as irratti maxxansi.</p>
+</section>
+
+<section id="contact">
+    <h2>Qunnamtii</h2>
+    <p>Email: example@gmail.com</p>
+    <p>Bilbila: +000 000 000</p>
+</section>
+
+<footer>
+    © 2026 Nageenya Oromiyaa
+</footer>
+
+</body>
+</html>
